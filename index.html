@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Matty's Audio Player</title>
+  <style>
+    body {
+      background: #fffbe6;
+      font-family: sans-serif;
+      text-align: center;
+      padding-top: 100px;
+    }
+    .audio-box {
+      display: inline-block;
+      background: #1c1c1e;
+      border-radius: 20px;
+      padding: 20px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+      color: white;
+    }
+    audio {
+      width: 300px;
+      margin-top: 10px;
+    }
+    .cover {
+      width: 64px;
+      height: 64px;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎧 Embedded Audio</h1>
+  <div class="audio-box">
+    <img src="https://gojonime.com/wp-content/uploads/2025/08/03-aLIEz-flac-image.jpg" class="cover" alt="Cover">
+    <div><strong>aLIEz</strong></div>
+    <div>Hiroyuki Sawano ft. Mizuki</div>
+    <audio controls>
+      <source src="03-alIEz.flac" type="audio/flac">
+      Your browser does not support the audio tag.
+    </audio>
+  </div>
+</body>
+</html>
